@@ -1,20 +1,3 @@
-//*******************List of variables used that were not declared in this file starts here.*******
-/**
- * Lists of countries, states, and countries' codes, as well as 
- * relevant information about respective countries, including names, isoCodes, latitudes, longtitudes, etc.
- * 
- * Documented in http://resume/wp-content/plugins/describr/dist/js/location/country-state.min.js.
- * 
- * @var object describrLocation.
- */
-
-/**
-  * List of all cities in the word.
-  * 
-  * Documented in http://resume/wp-content/plugins/describr/dist/js/location/cities.min.js. 
-  * @var array describrCities.
-  */
-
 //Credit: https://github.com/behnammodi/polyfill/blob/master/math.polyfill.js
 Math.sign || (Math.sign = function ( x ) {
     return ( (x > 0 ) - ( x < 0 ) ) || + x;
