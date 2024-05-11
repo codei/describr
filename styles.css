@@ -1,0 +1,4751 @@
+body,
+button,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+input,
+li,
+p,
+span,
+sup,
+textarea,
+ul {
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+}
+ul li {
+  list-style: none;
+}
+.describr {
+  position: relative;
+}
+.describr select {
+  display: inline-block;
+}
+.describr .hidden {
+  display: none;
+}
+.describr__users__login .dashicons-unlock {
+  display: inline-block;
+  color: #46b450;
+}
+.describr__notice {
+  padding-right: 38px;
+  position: relative;
+  margin: 5px 0 15px;
+  background: #fff;
+  border: 1px solid #c3c4c7;
+  border-left-width: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  padding: 1px 12px;
+}
+.describr__notice p {
+  padding: 2px 20px 2px 2px !important;
+  margin: 0.5em 0 !important;
+}
+.describr__notice.notice-error {
+  border-left-color: #d63638;
+}
+.describr .ui-selectmenu-button {
+  width: auto;
+}
+.describr .ui-selectmenu-text {
+  display: block;
+  margin-right: 10px;
+}
+.describr .ui-selectmenu-text-flag {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr-ui-selectmenu-button {
+  background: #fff;
+  color: #454545;
+}
+.describr__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__published__show {
+  position: relative;
+  
+}
+.describr__published__show__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__loading {
+  text-align: center;
+}
+.describr__avatar__ctrls {
+  margin: 10px 0;
+}
+.describr__avatar__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__avatar__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;  
+  margin-right: 10px;
+}
+.describr__avatar__ctrls__privacy__menu__item__option__icon, .describr__avatar__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__avatar__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__avatar__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__avatar__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__avatar__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__avatar__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__avatar__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__avatar__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__avatar__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__avatar__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__avatar__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__avatar__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__avatar__ctrls__events {
+  display: inline-block;
+  color: #808080;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__avatar__ctrls__events {
+    display: block;
+  }
+}
+.describr__avatar__ctrls__events__date {
+  color: #444;
+}
+.describr__avatar__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+  
+}
+.describr__avatar__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__avatar__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__avatar__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__avatar__ctrls__events__wrapper__menu {
+  
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__avatar__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+}
+.describr__avatar__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__avatar__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__avatar__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__avatar__ctrls__events__wrapper__menu__wrapper__item__link, .describr__avatar__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__avatar__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__avatar__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__avatar__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__avatar__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__avatar__notices__login {
+  position: relative;
+ }
+.describr__avatar__notices__login__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__avatar__notices__login__icon {
+  color: #bbb;
+  
+}
+.describr__avatar__notices__login__icon__unlock {
+  color: #46b450;
+}
+.describr__avatar__image {
+  outline: transparent;
+  width: 50px;
+}
+.describr__avatar__image__source {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.describr__avatar__image__source:hover .describr__avatar__image__source__edit {
+  display: inline-block;
+}
+.describr__avatar__image__source .avatar {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.describr__avatar__image__source__edit {
+  background: #000;
+  opacity: 0.5;
+  position: absolute;
+  height: 2em;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.describr__avatar__image__source__edit__ctrls {
+  background: transparent;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.describr__avatar__image__source__edit__ctrls__button {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  color: #fff;
+  border: none;
+  outline: transparent;
+  cursor: pointer;
+}
+.describr__avatar__image__source__edit__ctrls__button:hover {
+  color: #ddd;
+}
+.describr__avatar__image__source__edit__ctrls__button__edit {
+  left: 0;
+}
+.describr__avatar__image__source__edit__ctrls__button__remove {
+  right: 0;
+}
+.describr__tagline__show__description {
+  position: relative;
+  width: 25em;
+}
+@media screen and (max-width: 782px) {
+  .describr__tagline__show__description {
+    width: auto;
+  }
+}
+.describr__tagline__show__description__limit {
+  color: #404040;
+  padding-left: 0.3em;
+}
+.describr__tagline__show__description__limit__current {
+  color: #000;
+}
+.describr__tagline__show__description__limit__reached {
+  color: #dc3232;
+}
+.describr__tagline__show__description__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__tagline__show__ctrls {
+  margin: 10px 0;
+}
+.describr__tagline__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__tagline__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.describr__tagline__show__ctrls__privacy__menu__item__option__icon, .describr__tagline__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__tagline__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__tagline__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__tagline__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__tagline__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__tagline__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__tagline__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__tagline__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__tagline__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__tagline__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__tagline__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__tagline__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__tagline__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__tagline__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__tagline__show__ctrls__events__date {
+  color: #444;
+}
+.describr__tagline__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+}
+.describr__tagline__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__tagline__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__tagline__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__tagline__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__tagline__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__tagline__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__tagline__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__tagline__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__tagline__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__tagline__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__tagline__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__tagline__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__tagline__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__tagline__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__basic_info__badge__show__name__first_name, .describr__basic_info__badge__show__name__last_name {
+  margin-bottom: 10px;
+  position: relative;
+  width: 25em;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__basic_info__badge__show__name__first_name, .describr__basic_info__badge__show__name__last_name {
+    width: auto;
+  }
+}
+.describr__basic_info__badge__show__name__first_name__select, .describr__basic_info__badge__show__name__last_name__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__basic_info__badge__show__name__first_name__select__option, .describr__basic_info__badge__show__name__last_name__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__basic_info__badge__show__name__first_name__select__option--selected, .describr__basic_info__badge__show__name__last_name__select__option--selected {
+  font-weight: 600;
+}
+.describr__basic_info__badge__show__name__first_name__input, .describr__basic_info__badge__show__name__last_name__input {
+  width: 100% !important;
+}
+.describr__basic_info__badge__show__name__first_name__button, .describr__basic_info__badge__show__name__last_name__button {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: transparent;
+  color: #666666;
+}
+.describr__basic_info__badge__show__name__first_name__button:hover, .describr__basic_info__badge__show__name__last_name__button:hover {
+  color: #000;
+}
+.describr__basic_info__badge__show__ctrls {
+  margin: 10px 0;
+}
+.describr__basic_info__badge__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__basic_info__badge__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.describr__basic_info__badge__show__ctrls__privacy__menu__item__option__icon, .describr__basic_info__badge__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__basic_info__badge__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__basic_info__badge__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__basic_info__badge__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__basic_info__badge__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__basic_info__badge__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__basic_info__badge__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__basic_info__badge__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__basic_info__badge__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__basic_info__badge__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__basic_info__badge__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__basic_info__badge__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__basic_info__badge__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__basic_info__badge__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__basic_info__badge__show__ctrls__events__date {
+  color: #444;
+}
+.describr__basic_info__badge__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+}
+.describr__basic_info__badge__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__basic_info__badge__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__basic_info__badge__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__basic_info__badge__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__basic_info__badge__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__basic_info__badge__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__basic_info__badge__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__basic_info__badge__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__basic_info__badge__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__basic_info__badge__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__basic_info__badge__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__basic_info__badge__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__basic_info__badge__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__basic_info__badge__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__basic_info__gender__show__search {
+  clear: both;
+}
+.describr__basic_info__gender__show__search__menu__item__option__icon, .describr__basic_info__gender__show__search__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__basic_info__gender__show__search__menu__item__option__icon {
+  min-width: 24px;
+  min-height: 24px;
+  margin-right: 0.25em;
+}
+.describr__basic_info__gender__show__ctrls {
+  margin: 10px 0;
+}
+.describr__basic_info__gender__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__basic_info__gender__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.describr__basic_info__gender__show__ctrls__privacy__menu__item__option__icon, .describr__basic_info__gender__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__basic_info__gender__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__basic_info__gender__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__basic_info__gender__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__basic_info__gender__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__basic_info__gender__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__basic_info__gender__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__basic_info__gender__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__basic_info__gender__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__basic_info__gender__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__basic_info__gender__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__basic_info__gender__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__basic_info__gender__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__basic_info__gender__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__basic_info__gender__show__ctrls__events__date {
+  color: #444;
+}
+.describr__basic_info__gender__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+  
+}
+.describr__basic_info__gender__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__basic_info__gender__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__basic_info__gender__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__basic_info__gender__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__basic_info__gender__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__basic_info__gender__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__basic_info__gender__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__basic_info__gender__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__basic_info__gender__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__basic_info__gender__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__basic_info__gender__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__basic_info__gender__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__basic_info__gender__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__basic_info__gender__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__basic_info__birthdate__show__date__label, .describr__basic_info__birthdate__show__date__year, .describr__basic_info__birthdate__show__date__month, .describr__basic_info__birthdate__show__date__day {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+.describr__basic_info__birthdate__show__date__year, .describr__basic_info__birthdate__show__date__month, .describr__basic_info__birthdate__show__date__day {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__basic_info__birthdate__show__date__year__arrow_down, .describr__basic_info__birthdate__show__date__month__arrow_down, .describr__basic_info__birthdate__show__date__day__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__basic_info__birthdate__show__date__year__select, .describr__basic_info__birthdate__show__date__month__select, .describr__basic_info__birthdate__show__date__day__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__basic_info__birthdate__show__date__year__select__option, .describr__basic_info__birthdate__show__date__month__select__option, .describr__basic_info__birthdate__show__date__day__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__basic_info__birthdate__show__date__year__select__option--selected, .describr__basic_info__birthdate__show__date__month__select__option--selected, .describr__basic_info__birthdate__show__date__day__select__option--selected {
+  font-weight: 600;
+}
+.describr__basic_info__birthdate__show__ctrls {
+  margin: 10px 0;
+}
+.describr__basic_info__birthdate__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__basic_info__birthdate__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.describr__basic_info__birthdate__show__ctrls__privacy__menu__item__option__icon, .describr__basic_info__birthdate__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__basic_info__birthdate__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__basic_info__birthdate__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__basic_info__birthdate__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__basic_info__birthdate__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__basic_info__birthdate__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__basic_info__birthdate__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__basic_info__birthdate__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__basic_info__birthdate__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__basic_info__birthdate__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__basic_info__birthdate__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__basic_info__birthdate__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__basic_info__birthdate__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__basic_info__birthdate__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__basic_info__birthdate__show__ctrls__events__date {
+  color: #444;
+}
+.describr__basic_info__birthdate__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+  
+}
+.describr__basic_info__birthdate__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__basic_info__birthdate__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__basic_info__birthdate__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__basic_info__birthdate__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__basic_info__birthdate__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__basic_info__birthdate__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__basic_info__birthdate__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__basic_info__birthdate__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__basic_info__birthdate__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__basic_info__birthdate__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__basic_info__birthdate__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__basic_info__birthdate__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__basic_info__birthdate__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__basic_info__birthdate__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__basic_info__bio__show__description {
+  position: relative;
+  width: 25em;
+}
+@media screen and (max-width: 782px) {
+  .describr__basic_info__bio__show__description {
+    width: auto;
+  }
+}
+.describr__basic_info__bio__show__description__textarea {
+  resize: none;
+  width: 100% !important;
+  padding: 0.2em 0.3em;
+  line-height: 1.2;
+  margin: 6px;
+}
+.describr__basic_info__bio__show__description__limit {
+  color: #404040;
+  padding-left: 0.3em;
+}
+.describr__basic_info__bio__show__description__limit__current {
+  color: #000;
+}
+.describr__basic_info__bio__show__description__limit__reached {
+  color: #dc3232;
+}
+.describr__basic_info__bio__show__description__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__basic_info__bio__show__ctrls {
+  margin: 10px 0;
+}
+.describr__basic_info__bio__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__basic_info__bio__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.describr__basic_info__bio__show__ctrls__privacy__menu__item__option__icon, .describr__basic_info__bio__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__basic_info__bio__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__basic_info__bio__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__basic_info__bio__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__basic_info__bio__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__basic_info__bio__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__basic_info__bio__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__basic_info__bio__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__basic_info__bio__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__basic_info__bio__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__basic_info__bio__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__basic_info__bio__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__basic_info__bio__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+}
+@media screen and (max-width: 782px) {
+  .describr__basic_info__bio__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__basic_info__bio__show__ctrls__events__date {
+  color: #444;
+}
+.describr__basic_info__bio__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+}
+.describr__basic_info__bio__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__basic_info__bio__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__basic_info__bio__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__basic_info__bio__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__basic_info__bio__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__basic_info__bio__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__basic_info__bio__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__basic_info__bio__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__basic_info__bio__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__basic_info__bio__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__basic_info__bio__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__basic_info__bio__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__basic_info__bio__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__basic_info__bio__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__relationship__show__link, .describr__relationship__show__link:active, .describr__relationship__show__link:visited {
+  text-decoration: none;
+  color: #404040;
+  font-weight: 600;
+}
+.describr__relationship__show__link:hover {
+  text-decoration: underline;
+  color: #404040;
+}
+.describr__relationship__show__status {
+  margin-bottom: 10px;
+}
+.describr__relationship__show__status__search {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__relationship__show__status__search__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__relationship__show__status__search__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 190px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__relationship__show__status__search__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__relationship__show__status__search__select__option--selected {
+  font-weight: 600;
+}
+.describr__relationship__show__partner {
+  margin-bottom: 10px;
+  position: relative;
+  width: 25em;
+}
+@media screen and (max-width: 782px) {
+  .describr__relationship__show__partner {
+    width: auto;
+  }
+}
+.describr__relationship__show__partner__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__relationship__show__partner__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__relationship__show__partner__select__option--selected {
+  font-weight: 600;
+}
+.describr__relationship__show__partner__input {
+  width: 100% !important;
+}
+.describr__relationship__show__partner__button {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: transparent;
+  color: #666666;
+}
+.describr__relationship__show__partner__button:hover {
+  color: #000;
+}
+.describr__relationship__show__since__label, .describr__relationship__show__since__year, .describr__relationship__show__since__month, .describr__relationship__show__since__day {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+.describr__relationship__show__since__year, .describr__relationship__show__since__month, .describr__relationship__show__since__day {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__relationship__show__since__year__arrow_down, .describr__relationship__show__since__month__arrow_down, .describr__relationship__show__since__day__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__relationship__show__since__year__select, .describr__relationship__show__since__month__select, .describr__relationship__show__since__day__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__relationship__show__since__year__select__option, .describr__relationship__show__since__month__select__option, .describr__relationship__show__since__day__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__relationship__show__since__year__select__option--selected, .describr__relationship__show__since__month__select__option--selected, .describr__relationship__show__since__day__select__option--selected {
+  font-weight: 600;
+}
+.describr__relationship__show__ctrls {
+  margin: 10px 0;  
+}
+.describr__relationship__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__relationship__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;  
+  margin-right: 10px;
+}
+.describr__relationship__show__ctrls__privacy__menu__item__option__icon, .describr__relationship__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__relationship__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__relationship__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__relationship__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__relationship__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__relationship__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__relationship__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__relationship__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__relationship__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__relationship__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__relationship__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__relationship__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__relationship__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__relationship__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__relationship__show__ctrls__events__date {
+  color: #444;
+}
+.describr__relationship__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+}
+.describr__relationship__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__relationship__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__relationship__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__relationship__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__relationship__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__relationship__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__relationship__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__relationship__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__relationship__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__relationship__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__relationship__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__relationship__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__relationship__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__relationship__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__addresses__show__warning {
+  color: #bbb;
+  position: relative;
+  border: 0.2em solid #dc3232;
+  padding: 0.4em 0.4em;
+  padding-left: 25px;
+  min-height: 2.5em;
+}
+.describr__addresses__show__warning__icon {
+  @inlcude posAbs;
+  top: 0.25em;
+  left: 0.25em;
+}
+.describr__addresses__show__ctrls {
+  margin: 10px 0;  
+}
+.describr__addresses__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__addresses__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;  
+  margin-right: 10px;
+}
+.describr__addresses__show__ctrls__privacy__menu__item__option__icon, .describr__addresses__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__addresses__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__addresses__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__addresses__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__addresses__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__addresses__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__addresses__show__ctrls__publish {
+  display: inline-block;
+  position: relative;  
+}
+.describr__addresses__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__addresses__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__addresses__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__addresses__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__addresses__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__addresses__show__ctrls__events {
+  display: inline-block;
+  color: #808080;  
+}
+@media screen and (max-width: 782px) {
+  .describr__addresses__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__addresses__show__ctrls__events__date {
+  color: #444;
+}
+.describr__addresses__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;  
+}
+.describr__addresses__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__addresses__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__addresses__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__addresses__show__ctrls__events__wrapper__menu {  
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__addresses__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;  
+}
+.describr__addresses__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__addresses__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__addresses__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__addresses__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__addresses__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__addresses__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__addresses__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__addresses__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__addresses__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__addresses__lived_cities__show__city {
+  position: relative;
+  margin-bottom: 1.5em;  
+  padding-left: 32px;  
+}
+.describr__addresses__lived_cities__show__city__symbol {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.describr__addresses__lived_cities__show__city__display__name {
+  padding-bottom: 0.1em;
+  line-height: 1;
+}
+.describr__addresses__lived_cities__show__city__display__moved {
+  color: #808080;
+}
+.describr__addresses__lived_cities__show__timeperiod {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 0;
+  
+}
+.describr__addresses__lived_cities__show__timeperiod__moved__label, .describr__addresses__lived_cities__show__timeperiod__moved__year, .describr__addresses__lived_cities__show__timeperiod__moved__month, .describr__addresses__lived_cities__show__timeperiod__moved__day {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+.describr__addresses__lived_cities__show__timeperiod__moved__year, .describr__addresses__lived_cities__show__timeperiod__moved__month, .describr__addresses__lived_cities__show__timeperiod__moved__day {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;  
+}
+.describr__addresses__lived_cities__show__timeperiod__moved__year__arrow_down, .describr__addresses__lived_cities__show__timeperiod__moved__month__arrow_down, .describr__addresses__lived_cities__show__timeperiod__moved__day__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__addresses__lived_cities__show__timeperiod__moved__year__select, .describr__addresses__lived_cities__show__timeperiod__moved__month__select, .describr__addresses__lived_cities__show__timeperiod__moved__day__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__addresses__lived_cities__show__timeperiod__moved__year__select__option, .describr__addresses__lived_cities__show__timeperiod__moved__month__select__option, .describr__addresses__lived_cities__show__timeperiod__moved__day__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__addresses__lived_cities__show__timeperiod__moved__year__select__option--selected, .describr__addresses__lived_cities__show__timeperiod__moved__month__select__option--selected, .describr__addresses__lived_cities__show__timeperiod__moved__day__select__option--selected {
+  font-weight: 600;
+}
+.describr__addresses__current_city__show__search, .describr__addresses__hometown__show__search, .describr__addresses__lived_cities__show__search {
+  position: relative;
+  width: 25em;
+}
+@media screen and (max-width: 782px) {
+  .describr__addresses__current_city__show__search, .describr__addresses__hometown__show__search, .describr__addresses__lived_cities__show__search {
+    width: auto;
+  }
+}
+.describr__addresses__current_city__show__search__select, .describr__addresses__hometown__show__search__select, .describr__addresses__lived_cities__show__search__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__addresses__current_city__show__search__select__option, .describr__addresses__hometown__show__search__select__option, .describr__addresses__lived_cities__show__search__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__addresses__current_city__show__search__select__option--selected, .describr__addresses__hometown__show__search__select__option--selected, .describr__addresses__lived_cities__show__search__select__option--selected {
+  font-weight: 600;
+}
+.describr__addresses__current_city__show__search__input, .describr__addresses__hometown__show__search__input, .describr__addresses__lived_cities__show__search__input {
+  width: 100% !important;
+}
+.describr__addresses__current_city__show__search__button, .describr__addresses__hometown__show__search__button, .describr__addresses__lived_cities__show__search__button {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: transparent;
+  color: #666666;
+}
+.describr__addresses__current_city__show__search__button:hover, .describr__addresses__hometown__show__search__button:hover, .describr__addresses__lived_cities__show__search__button:hover {
+  color: #000;
+}
+.describr__langs__show__search {
+  margin-bottom: 10px;
+  position: relative;
+  width: 25em;  
+  min-height: 30px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  background: #fff;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__langs__show__search {
+    width: auto;
+  }
+}
+.describr__langs__show__search__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__langs__show__search__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__langs__show__search__select__option--selected {
+  font-weight: 600;
+}
+.describr__langs__show__search__input {
+  width: 100% !important;
+}
+.describr__langs__show__search__button {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: transparent;
+  color: #666666;
+}
+.describr__langs__show__search__button:hover {
+  color: #000;
+}
+.describr__langs__show__search:focus-within {
+  border-color: #2271b1;
+  box-shadow: 0 0 0 1px #2271b1;
+}
+.describr__langs__show__search__input {
+  border: none !important;
+  border-radius: unset !important;
+}
+.describr__langs__show__search__input:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+}
+.describr__langs__show__search__select {
+  top: 103.1%;
+}
+.describr__langs__show__search__input {
+  display: inline-block !important;
+  width: 80px !important;
+}
+.describr__langs__show__search__grid {
+  vertical-align: middle;  
+}
+.describr__langs__show__search__grid__row__gridcell {
+  display: inline-block;
+  border-radius: 3px;
+  position: relative;
+  padding: 4px 25px 4px 8px;
+  margin: 4px 6px;
+  background: #e0e0e0;
+}
+.describr__langs__show__search__grid__row__gridcell:focus {
+  outline: transparent;
+}
+.describr__langs__show__search__grid__row__gridcell__lang {
+  color: #000;
+}
+.describr__langs__show__search__grid__row__gridcell__button {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: transparent;
+  color: #333333;
+}
+.describr__langs__show__search__grid__row__gridcell__button:hover {
+  color: #000;
+}
+.describr__langs__show__ctrls {
+  margin: 10px 0;  
+}
+.describr__langs__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__langs__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;  
+  margin-right: 10px;
+}
+.describr__langs__show__ctrls__privacy__menu__item__option__icon, .describr__langs__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__langs__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__langs__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__langs__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__langs__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__langs__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__langs__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__langs__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__langs__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__langs__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__langs__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__langs__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__langs__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__langs__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__langs__show__ctrls__events__date {
+  color: #444;
+}
+.describr__langs__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+  
+}
+.describr__langs__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__langs__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__langs__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__langs__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__langs__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__langs__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__langs__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__langs__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__langs__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__langs__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__langs__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__langs__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__langs__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__langs__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__contact__phones__show__phone {
+  position: relative;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 782px) {
+  .describr__contact__phones__show__phone__number__input {
+    width: 100% !important;
+  }
+}
+.describr__contact__phones__show__phone__symbol {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.describr__contact__phones__show__phone__number {
+  margin-bottom: 10px;
+}
+.describr__contact__phones__show__phone__number__txt {
+  padding: 0 28px 8px 0;
+}
+.describr__contact__phones__show__phone__number__type {
+  padding-bottom: 8px;
+  color: #737373;
+}
+.describr__contact__phones__show__phone__edit {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.describr__contact__phones__show__phone__edit__button {
+  cursor: pointer;
+  color: #595959;
+  background: transparent;
+}
+.describr__contact__phones__show__phone__edit__button:hover {
+  color: #404040;
+}
+.describr__contact__phones__show__phone__country {
+  margin-bottom: 10px;
+}
+.describr__contact__phones__show__phone__country__search__menu__item {
+  background: #f8f8f8;
+}
+.describr__contact__phones__show__phone__country__search__menu__item__option__flag__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__contact__phones__show__phone__country__search__menu__item__option__text {
+  font-size: 1.2em;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.1em 0 0 0.25em;
+  
+}
+.describr__contact__phones__show__phone__ext {
+  margin-bottom: 10px;
+  position: relative;
+  width: 4.5em;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__contact__phones__show__phone__ext {
+    width: auto;
+  }
+}
+.describr__contact__phones__show__phone__ext__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__contact__phones__show__phone__ext__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__contact__phones__show__phone__ext__select__option--selected {
+  font-weight: 600;
+}
+.describr__contact__phones__show__phone__ext__input {
+  width: 100% !important;
+}
+.describr__contact__phones__show__phone__ext__button {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: transparent;
+  color: #666666;
+}
+.describr__contact__phones__show__phone__ext__button:hover {
+  color: #000;
+}
+@media screen and (max-width: 782px) {
+  .describr__contact__phones__show__phone__ext__input {
+    width: 25% !important;
+  }
+}
+.describr__contact__phones__show__ctrls {
+  margin: 10px 0;
+}
+.describr__contact__phones__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__contact__phones__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.describr__contact__phones__show__ctrls__privacy__menu__item__option__icon, .describr__contact__phones__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__contact__phones__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__contact__phones__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__contact__phones__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__contact__phones__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__contact__phones__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__contact__phones__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__contact__phones__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__contact__phones__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__contact__phones__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__contact__phones__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__contact__phones__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__contact__phones__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+}
+@media screen and (max-width: 782px) {
+  .describr__contact__phones__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__contact__phones__show__ctrls__events__date {
+  color: #444;
+}
+.describr__contact__phones__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+}
+.describr__contact__phones__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__contact__phones__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__contact__phones__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__contact__phones__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__contact__phones__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__contact__phones__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__contact__phones__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__contact__phones__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__contact__phones__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__contact__phones__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__contact__phones__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__contact__phones__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__contact__phones__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__contact__phones__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__contact__email__show__address {
+  margin-bottom: 10px;
+  position: relative;
+  width: 25em;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__contact__email__show__address {
+    width: auto;
+  }
+}
+.describr__contact__email__show__address__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__contact__email__show__address__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__contact__email__show__address__select__option--selected {
+  font-weight: 600;
+}
+.describr__contact__email__show__address__input {
+  width: 100% !important;
+}
+.describr__contact__email__show__address__button {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: transparent;
+  color: #666666;
+}
+.describr__contact__email__show__address__button:hover {
+  color: #000;
+}
+.describr__contact__email__show__ctrls {
+  margin: 10px 0;
+}
+.describr__contact__email__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__contact__email__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.describr__contact__email__show__ctrls__privacy__menu__item__option__icon, .describr__contact__email__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__contact__email__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__contact__email__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__contact__email__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__contact__email__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__contact__email__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__contact__email__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__contact__email__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__contact__email__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__contact__email__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__contact__email__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__contact__email__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__contact__email__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+}
+@media screen and (max-width: 782px) {
+  .describr__contact__email__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__contact__email__show__ctrls__events__date {
+  color: #444;
+}
+.describr__contact__email__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+}
+.describr__contact__email__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__contact__email__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__contact__email__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__contact__email__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__contact__email__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__contact__email__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__contact__email__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__contact__email__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__contact__email__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__contact__email__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__contact__email__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__contact__email__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__contact__email__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__contact__email__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__timezone__show__search__menu__item {
+  background: #fff;
+}
+.describr__timezone__show__search__menu__item__optgroup__option__text {
+  font-size: 1.2em;
+  
+}
+.describr__timezone__show__ctrls {
+  margin: 10px 0;
+}
+.describr__timezone__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__timezone__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.describr__timezone__show__ctrls__privacy__menu__item__option__icon, .describr__timezone__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__timezone__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__timezone__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__timezone__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__timezone__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__timezone__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__timezone__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__timezone__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__timezone__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__timezone__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__timezone__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__timezone__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__timezone__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__timezone__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__timezone__show__ctrls__events__date {
+  color: #444;
+}
+.describr__timezone__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+  
+}
+.describr__timezone__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__timezone__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__timezone__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__timezone__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__timezone__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__timezone__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__timezone__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__timezone__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__timezone__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__timezone__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__timezone__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__timezone__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__timezone__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__timezone__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__socialnetworks__show__network {
+  position: relative;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 782px) {
+  .describr__socialnetworks__show__network {
+    display: block flex;
+    align-items: stretch;
+  }
+}
+.describr__socialnetworks__show__network__input {
+  display: inline-block;
+  width: 12.5em;
+}
+@media screen and (max-width: 782px) {
+  .describr__socialnetworks__show__network__input {
+    padding: 0 8px !important;
+    width: auto !important;
+    min-height: 30px !important;
+    flex: 1 1 auto;
+  }
+}
+.describr__socialnetworks__show__network__combobox__menu__item__option__text {
+  font-size: 1.2em;
+  color: #bbb;
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.1em 0 0 0.25em;
+  
+}
+.describr__socialnetworks__show__network__symbol {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.describr__socialnetworks__show__network__link {
+  margin-bottom: 10px;
+  padding-left: 32px;
+}
+.describr__socialnetworks__show__network__link__click, .describr__socialnetworks__show__network__link__click:active, .describr__socialnetworks__show__network__link__click:visited {
+  text-decoration: none;
+  color: #333333;
+}
+.describr__socialnetworks__show__network__link__click:hover {
+  text-decoration: none;
+  color: #000;
+}
+.describr__socialnetworks__show__network__link__txt {
+  padding: 0 28px 8px 0;
+}
+.describr__socialnetworks__show__network__link__type {
+  padding-bottom: 8px;
+  color: #737373;
+}
+.describr__socialnetworks__show__ctrls {
+  margin: 10px 0;
+}
+.describr__socialnetworks__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__socialnetworks__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.describr__socialnetworks__show__ctrls__privacy__menu__item__option__icon, .describr__socialnetworks__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__socialnetworks__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__socialnetworks__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__socialnetworks__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__socialnetworks__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__socialnetworks__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__socialnetworks__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__socialnetworks__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__socialnetworks__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__socialnetworks__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__socialnetworks__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__socialnetworks__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__socialnetworks__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+}
+@media screen and (max-width: 782px) {
+  .describr__socialnetworks__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__socialnetworks__show__ctrls__events__date {
+  color: #444;
+}
+.describr__socialnetworks__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+}
+.describr__socialnetworks__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__socialnetworks__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__socialnetworks__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__socialnetworks__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__socialnetworks__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__socialnetworks__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__socialnetworks__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__socialnetworks__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__socialnetworks__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__socialnetworks__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__socialnetworks__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__socialnetworks__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__socialnetworks__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__socialnetworks__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__websites__show__address {
+  width: 25em;
+  position: relative;
+  margin-bottom: 20px;
+  
+}
+@media screen and (max-width: 782px) {
+  .describr__websites__show__address {
+    width: auto;
+  }
+}
+.describr__websites__show__address__input {
+  width: 100% !important;
+}
+.describr__websites__show__address__symbol {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.describr__websites__show__address__link {
+  margin-bottom: 10px;
+  padding-left: 32px;
+}
+.describr__websites__show__address__link__click, .describr__websites__show__address__link__click:active, .describr__websites__show__address__link__click:visited {
+  text-decoration: none;
+  color: #333333;
+}
+.describr__websites__show__address__link__click:hover {
+  text-decoration: none;
+  color: #000;
+}
+.describr__websites__show__address__link__txt {
+  padding: 0 28px 8px 0;
+}
+.describr__websites__show__address__link__type {
+  padding-bottom: 8px;
+  color: #737373;
+}
+.describr__websites__show__ctrls {
+  margin: 10px 0;
+}
+.describr__websites__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__websites__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.describr__websites__show__ctrls__privacy__menu__item__option__icon, .describr__websites__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__websites__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__websites__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__websites__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__websites__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__websites__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__websites__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__websites__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__websites__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__websites__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__websites__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__websites__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__websites__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+}
+@media screen and (max-width: 782px) {
+  .describr__websites__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__websites__show__ctrls__events__date {
+  color: #444;
+}
+.describr__websites__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+}
+.describr__websites__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__websites__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__websites__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__websites__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__websites__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__websites__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__websites__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__websites__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__websites__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__websites__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__websites__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__websites__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__websites__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__websites__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__workhistory__show__job {
+  position: relative;
+  margin-bottom: 1.5em;
+}
+.describr__workhistory__show__job__position, .describr__workhistory__show__job__company, .describr__workhistory__show__job__city, .describr__workhistory__show__job__description {
+  margin-bottom: 1em;
+}
+.describr__workhistory__show__job__position, .describr__workhistory__show__job__company {
+  width: 25em;
+}
+@media screen and (max-width: 782px) {
+  .describr__workhistory__show__job__position, .describr__workhistory__show__job__company {
+    width: auto;
+  }
+}
+.describr__workhistory__show__job__position__input, .describr__workhistory__show__job__company__input {
+  width: 100% !important;
+}
+.describr__workhistory__show__job__city {
+  position: relative;
+  width: 25em;
+}
+@media screen and (max-width: 782px) {
+  .describr__workhistory__show__job__city {
+    width: auto;
+  }
+}
+.describr__workhistory__show__job__city__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__workhistory__show__job__city__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__workhistory__show__job__city__select__option--selected {
+  font-weight: 600;
+}
+.describr__workhistory__show__job__city__input {
+  width: 100% !important;
+}
+.describr__workhistory__show__job__city__button {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: transparent;
+  color: #666666;
+}
+.describr__workhistory__show__job__city__button:hover {
+  color: #000;
+}
+.describr__workhistory__show__job__symbol {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.describr__workhistory__show__job__display {
+  padding-left: 32px;
+}
+.describr__workhistory__show__job__display__position-company, .describr__workhistory__show__job__display__timeperiod-city {
+  padding-bottom: 0.1em;
+}
+.describr__workhistory__show__job__display__position-company {
+  line-height: 1;
+}
+.describr__workhistory__show__job__display__description, .describr__workhistory__show__job__display__timeperiod-city {
+  color: #808080;
+}
+.describr__workhistory__show__job__description {
+  position: relative;
+  width: 25em;
+}
+@media screen and (max-width: 782px) {
+  .describr__workhistory__show__job__description {
+    width: auto;
+  }
+}
+.describr__workhistory__show__job__description__textarea {
+  resize: none;
+  width: 100% !important;
+  padding: 0.2em 0.3em;
+  line-height: 1.2;
+  margin: 6px;
+  margin: 0 0 6px;
+  width: 25em;
+  border: 1px solid #8c8f94;
+}
+.describr__workhistory__show__job__description__limit {
+  color: #404040;
+  padding-left: 0.3em;
+}
+.describr__workhistory__show__job__description__limit__current {
+  color: #000;
+}
+.describr__workhistory__show__job__description__limit__reached {
+  color: #dc3232;
+}
+.describr__workhistory__show__job__description__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__workhistory__show__job__description__limit {
+  padding-left: 0;
+}
+.describr__workhistory__show__job__timeperiod {
+  padding: 8px 0;
+}
+.describr__workhistory__show__job__timeperiod__header {
+  font-weight: 600;
+  font-size: 1.19999em;
+  margin-bottom: 0.8em;
+}
+.describr__workhistory__show__job__timeperiod__present {
+  margin-bottom: 0.8em;
+}
+.describr__workhistory__show__job__timeperiod__present__label {
+  display: inline-block;
+  font-weight: 600;
+  margin-top: -0.25rem;
+  padding-left: 8px;
+}
+.describr__workhistory__show__job__timeperiod__from {
+  display: inline-block;
+}
+@media screen and (max-width: 782px) {
+  .describr__workhistory__show__job__timeperiod__from {
+    display: block;
+  }
+}
+.describr__workhistory__show__job__timeperiod__from__label {
+  vertical-align: middle;
+  font-weight: 600;
+  padding-right: 8px;
+}
+.describr__workhistory__show__job__timeperiod__from__label, .describr__workhistory__show__job__timeperiod__from__year, .describr__workhistory__show__job__timeperiod__from__month, .describr__workhistory__show__job__timeperiod__from__day {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+.describr__workhistory__show__job__timeperiod__from__year, .describr__workhistory__show__job__timeperiod__from__month, .describr__workhistory__show__job__timeperiod__from__day {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__workhistory__show__job__timeperiod__from__year__arrow_down, .describr__workhistory__show__job__timeperiod__from__month__arrow_down, .describr__workhistory__show__job__timeperiod__from__day__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__workhistory__show__job__timeperiod__from__year__select, .describr__workhistory__show__job__timeperiod__from__month__select, .describr__workhistory__show__job__timeperiod__from__day__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__workhistory__show__job__timeperiod__from__year__select__option, .describr__workhistory__show__job__timeperiod__from__month__select__option, .describr__workhistory__show__job__timeperiod__from__day__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__workhistory__show__job__timeperiod__from__year__select__option--selected, .describr__workhistory__show__job__timeperiod__from__month__select__option--selected, .describr__workhistory__show__job__timeperiod__from__day__select__option--selected {
+  font-weight: 600;
+}
+.describr__workhistory__show__job__timeperiod__to {
+  display: inline-block;
+}
+@media screen and (max-width: 782px) {
+  .describr__workhistory__show__job__timeperiod__to {
+    display: block;
+    margin-top: 10px;
+  }
+}
+.describr__workhistory__show__job__timeperiod__to__label {
+  vertical-align: middle;
+  font-weight: 600;
+  padding: 0 8px 0 16px;
+}
+.describr__workhistory__show__job__timeperiod__to__label, .describr__workhistory__show__job__timeperiod__to__year, .describr__workhistory__show__job__timeperiod__to__month, .describr__workhistory__show__job__timeperiod__to__day {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+.describr__workhistory__show__job__timeperiod__to__year, .describr__workhistory__show__job__timeperiod__to__month, .describr__workhistory__show__job__timeperiod__to__day {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__workhistory__show__job__timeperiod__to__year__arrow_down, .describr__workhistory__show__job__timeperiod__to__month__arrow_down, .describr__workhistory__show__job__timeperiod__to__day__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__workhistory__show__job__timeperiod__to__year__select, .describr__workhistory__show__job__timeperiod__to__month__select, .describr__workhistory__show__job__timeperiod__to__day__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__workhistory__show__job__timeperiod__to__year__select__option, .describr__workhistory__show__job__timeperiod__to__month__select__option, .describr__workhistory__show__job__timeperiod__to__day__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__workhistory__show__job__timeperiod__to__year__select__option--selected, .describr__workhistory__show__job__timeperiod__to__month__select__option--selected, .describr__workhistory__show__job__timeperiod__to__day__select__option--selected {
+  font-weight: 600;
+}
+.describr__workhistory__show__ctrls {
+  margin: 10px 0;
+}
+.describr__workhistory__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__workhistory__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.describr__workhistory__show__ctrls__privacy__menu__item__option__icon, .describr__workhistory__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__workhistory__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__workhistory__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__workhistory__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__workhistory__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__workhistory__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__workhistory__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__workhistory__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__workhistory__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__workhistory__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__workhistory__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__workhistory__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__workhistory__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+}
+@media screen and (max-width: 782px) {
+  .describr__workhistory__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__workhistory__show__ctrls__events__date {
+  color: #444;
+}
+.describr__workhistory__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+}
+.describr__workhistory__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__workhistory__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__workhistory__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__workhistory__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__workhistory__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__workhistory__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__workhistory__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__workhistory__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__workhistory__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__workhistory__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__workhistory__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__workhistory__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__workhistory__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__workhistory__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__edu__colleges__show__college, .describr__edu__colleges__show__highschool, .describr__edu__highschools__show__college, .describr__edu__highschools__show__highschool {
+  position: relative;
+  margin-bottom: 1.5em;
+}
+.describr__edu__colleges__show__college__name, .describr__edu__colleges__show__college__major, .describr__edu__colleges__show__college__minor, .describr__edu__colleges__show__college__degree, .describr__edu__colleges__show__college__description, .describr__edu__colleges__show__highschool__name, .describr__edu__colleges__show__highschool__major, .describr__edu__colleges__show__highschool__minor, .describr__edu__colleges__show__highschool__degree, .describr__edu__colleges__show__highschool__description, .describr__edu__highschools__show__college__name, .describr__edu__highschools__show__college__major, .describr__edu__highschools__show__college__minor, .describr__edu__highschools__show__college__degree, .describr__edu__highschools__show__college__description, .describr__edu__highschools__show__highschool__name, .describr__edu__highschools__show__highschool__major, .describr__edu__highschools__show__highschool__minor, .describr__edu__highschools__show__highschool__degree, .describr__edu__highschools__show__highschool__description {
+  margin-bottom: 1em;
+}
+.describr__edu__colleges__show__college__symbol, .describr__edu__colleges__show__highschool__symbol, .describr__edu__highschools__show__college__symbol, .describr__edu__highschools__show__highschool__symbol {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.describr__edu__colleges__show__college__display, .describr__edu__colleges__show__highschool__display, .describr__edu__highschools__show__college__display, .describr__edu__highschools__show__highschool__display {
+  padding-left: 32px;
+}
+.describr__edu__colleges__show__college__display__intro, .describr__edu__colleges__show__college__display__name, .describr__edu__colleges__show__college__display__minor, .describr__edu__colleges__show__college__display__timeperiod, .describr__edu__colleges__show__highschool__display__intro, .describr__edu__colleges__show__highschool__display__name, .describr__edu__colleges__show__highschool__display__minor, .describr__edu__colleges__show__highschool__display__timeperiod, .describr__edu__highschools__show__college__display__intro, .describr__edu__highschools__show__college__display__name, .describr__edu__highschools__show__college__display__minor, .describr__edu__highschools__show__college__display__timeperiod, .describr__edu__highschools__show__highschool__display__intro, .describr__edu__highschools__show__highschool__display__name, .describr__edu__highschools__show__highschool__display__minor, .describr__edu__highschools__show__highschool__display__timeperiod {
+  padding-bottom: 0.1em;
+}
+.describr__edu__colleges__show__college__display__minor, .describr__edu__colleges__show__college__display__description, .describr__edu__colleges__show__college__display__timeperiod, .describr__edu__colleges__show__highschool__display__minor, .describr__edu__colleges__show__highschool__display__description, .describr__edu__colleges__show__highschool__display__timeperiod, .describr__edu__highschools__show__college__display__minor, .describr__edu__highschools__show__college__display__description, .describr__edu__highschools__show__college__display__timeperiod, .describr__edu__highschools__show__highschool__display__minor, .describr__edu__highschools__show__highschool__display__description, .describr__edu__highschools__show__highschool__display__timeperiod {
+  color: #808080;
+}
+.describr__edu__colleges__show__college__display__intro, .describr__edu__colleges__show__highschool__display__intro, .describr__edu__highschools__show__college__display__intro, .describr__edu__highschools__show__highschool__display__intro {
+  line-height: 1;
+}
+.describr__edu__colleges__show__college__description, .describr__edu__colleges__show__highschool__description, .describr__edu__highschools__show__college__description, .describr__edu__highschools__show__highschool__description {
+  position: relative;
+  width: 25em;
+}
+@media screen and (max-width: 782px) {
+  .describr__edu__colleges__show__college__description, .describr__edu__colleges__show__highschool__description, .describr__edu__highschools__show__college__description, .describr__edu__highschools__show__highschool__description {
+    width: auto;
+  }
+}
+.describr__edu__colleges__show__college__description__textarea, .describr__edu__colleges__show__highschool__description__textarea, .describr__edu__highschools__show__college__description__textarea, .describr__edu__highschools__show__highschool__description__textarea {
+  resize: none;
+  width: 100% !important;
+  padding: 0.2em 0.3em;
+  line-height: 1.2;
+  margin: 6px;
+  margin: 0 0 6px;
+  width: 25em;
+  border: 1px solid #8c8f94;
+}
+.describr__edu__colleges__show__college__description__limit, .describr__edu__colleges__show__highschool__description__limit, .describr__edu__highschools__show__college__description__limit, .describr__edu__highschools__show__highschool__description__limit {
+  color: #404040;
+  padding-left: 0.3em;
+}
+.describr__edu__colleges__show__college__description__limit__current, .describr__edu__colleges__show__highschool__description__limit__current, .describr__edu__highschools__show__college__description__limit__current, .describr__edu__highschools__show__highschool__description__limit__current {
+  color: #000;
+}
+.describr__edu__colleges__show__college__description__limit__reached, .describr__edu__colleges__show__highschool__description__limit__reached, .describr__edu__highschools__show__college__description__limit__reached, .describr__edu__highschools__show__highschool__description__limit__reached {
+  color: #dc3232;
+}
+.describr__edu__colleges__show__college__description__accessibility, .describr__edu__colleges__show__highschool__description__accessibility, .describr__edu__highschools__show__college__description__accessibility, .describr__edu__highschools__show__highschool__description__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__edu__colleges__show__college__description__limit, .describr__edu__colleges__show__highschool__description__limit, .describr__edu__highschools__show__college__description__limit, .describr__edu__highschools__show__highschool__description__limit {
+  padding-left: 0;
+}
+.describr__edu__colleges__show__college__timeperiod, .describr__edu__colleges__show__highschool__timeperiod, .describr__edu__highschools__show__college__timeperiod, .describr__edu__highschools__show__highschool__timeperiod {
+  padding: 8px 0;
+}
+.describr__edu__colleges__show__college__timeperiod__header, .describr__edu__colleges__show__highschool__timeperiod__header, .describr__edu__highschools__show__college__timeperiod__header, .describr__edu__highschools__show__highschool__timeperiod__header {
+  font-weight: 600;
+  font-size: 1.19999em;
+  margin-bottom: 0.8em;
+}
+.describr__edu__colleges__show__college__timeperiod__present, .describr__edu__colleges__show__highschool__timeperiod__present, .describr__edu__highschools__show__college__timeperiod__present, .describr__edu__highschools__show__highschool__timeperiod__present {
+  margin-bottom: 0.8em;
+}
+.describr__edu__colleges__show__college__timeperiod__present__label, .describr__edu__colleges__show__highschool__timeperiod__present__label, .describr__edu__highschools__show__college__timeperiod__present__label, .describr__edu__highschools__show__highschool__timeperiod__present__label {
+  display: inline-block;
+  font-weight: 600;
+  margin-top: -0.25rem;
+  padding-left: 8px;
+}
+.describr__edu__colleges__show__college__timeperiod__from, .describr__edu__colleges__show__highschool__timeperiod__from, .describr__edu__highschools__show__college__timeperiod__from, .describr__edu__highschools__show__highschool__timeperiod__from {
+  display: inline-block;
+}
+@media screen and (max-width: 782px) {
+  .describr__edu__colleges__show__college__timeperiod__from, .describr__edu__colleges__show__highschool__timeperiod__from, .describr__edu__highschools__show__college__timeperiod__from, .describr__edu__highschools__show__highschool__timeperiod__from {
+    display: block;
+  }
+}
+.describr__edu__colleges__show__college__timeperiod__from__label, .describr__edu__colleges__show__highschool__timeperiod__from__label, .describr__edu__highschools__show__college__timeperiod__from__label, .describr__edu__highschools__show__highschool__timeperiod__from__label {
+  vertical-align: middle;
+  font-weight: 600;
+  padding-right: 8px;
+}
+.describr__edu__colleges__show__college__timeperiod__from__label, .describr__edu__colleges__show__college__timeperiod__from__year, .describr__edu__colleges__show__college__timeperiod__from__month, .describr__edu__colleges__show__college__timeperiod__from__day, .describr__edu__colleges__show__highschool__timeperiod__from__label, .describr__edu__colleges__show__highschool__timeperiod__from__year, .describr__edu__colleges__show__highschool__timeperiod__from__month, .describr__edu__colleges__show__highschool__timeperiod__from__day, .describr__edu__highschools__show__college__timeperiod__from__label, .describr__edu__highschools__show__college__timeperiod__from__year, .describr__edu__highschools__show__college__timeperiod__from__month, .describr__edu__highschools__show__college__timeperiod__from__day, .describr__edu__highschools__show__highschool__timeperiod__from__label, .describr__edu__highschools__show__highschool__timeperiod__from__year, .describr__edu__highschools__show__highschool__timeperiod__from__month, .describr__edu__highschools__show__highschool__timeperiod__from__day {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+.describr__edu__colleges__show__college__timeperiod__from__year, .describr__edu__colleges__show__college__timeperiod__from__month, .describr__edu__colleges__show__college__timeperiod__from__day, .describr__edu__colleges__show__highschool__timeperiod__from__year, .describr__edu__colleges__show__highschool__timeperiod__from__month, .describr__edu__colleges__show__highschool__timeperiod__from__day, .describr__edu__highschools__show__college__timeperiod__from__year, .describr__edu__highschools__show__college__timeperiod__from__month, .describr__edu__highschools__show__college__timeperiod__from__day, .describr__edu__highschools__show__highschool__timeperiod__from__year, .describr__edu__highschools__show__highschool__timeperiod__from__month, .describr__edu__highschools__show__highschool__timeperiod__from__day {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__edu__colleges__show__college__timeperiod__from__year__arrow_down, .describr__edu__colleges__show__college__timeperiod__from__month__arrow_down, .describr__edu__colleges__show__college__timeperiod__from__day__arrow_down, .describr__edu__colleges__show__highschool__timeperiod__from__year__arrow_down, .describr__edu__colleges__show__highschool__timeperiod__from__month__arrow_down, .describr__edu__colleges__show__highschool__timeperiod__from__day__arrow_down, .describr__edu__highschools__show__college__timeperiod__from__year__arrow_down, .describr__edu__highschools__show__college__timeperiod__from__month__arrow_down, .describr__edu__highschools__show__college__timeperiod__from__day__arrow_down, .describr__edu__highschools__show__highschool__timeperiod__from__year__arrow_down, .describr__edu__highschools__show__highschool__timeperiod__from__month__arrow_down, .describr__edu__highschools__show__highschool__timeperiod__from__day__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__edu__colleges__show__college__timeperiod__from__year__select, .describr__edu__colleges__show__college__timeperiod__from__month__select, .describr__edu__colleges__show__college__timeperiod__from__day__select, .describr__edu__colleges__show__highschool__timeperiod__from__year__select, .describr__edu__colleges__show__highschool__timeperiod__from__month__select, .describr__edu__colleges__show__highschool__timeperiod__from__day__select, .describr__edu__highschools__show__college__timeperiod__from__year__select, .describr__edu__highschools__show__college__timeperiod__from__month__select, .describr__edu__highschools__show__college__timeperiod__from__day__select, .describr__edu__highschools__show__highschool__timeperiod__from__year__select, .describr__edu__highschools__show__highschool__timeperiod__from__month__select, .describr__edu__highschools__show__highschool__timeperiod__from__day__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__edu__colleges__show__college__timeperiod__from__year__select__option, .describr__edu__colleges__show__college__timeperiod__from__month__select__option, .describr__edu__colleges__show__college__timeperiod__from__day__select__option, .describr__edu__colleges__show__highschool__timeperiod__from__year__select__option, .describr__edu__colleges__show__highschool__timeperiod__from__month__select__option, .describr__edu__colleges__show__highschool__timeperiod__from__day__select__option, .describr__edu__highschools__show__college__timeperiod__from__year__select__option, .describr__edu__highschools__show__college__timeperiod__from__month__select__option, .describr__edu__highschools__show__college__timeperiod__from__day__select__option, .describr__edu__highschools__show__highschool__timeperiod__from__year__select__option, .describr__edu__highschools__show__highschool__timeperiod__from__month__select__option, .describr__edu__highschools__show__highschool__timeperiod__from__day__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__edu__colleges__show__college__timeperiod__from__year__select__option--selected, .describr__edu__colleges__show__college__timeperiod__from__month__select__option--selected, .describr__edu__colleges__show__college__timeperiod__from__day__select__option--selected, .describr__edu__colleges__show__highschool__timeperiod__from__year__select__option--selected, .describr__edu__colleges__show__highschool__timeperiod__from__month__select__option--selected, .describr__edu__colleges__show__highschool__timeperiod__from__day__select__option--selected, .describr__edu__highschools__show__college__timeperiod__from__year__select__option--selected, .describr__edu__highschools__show__college__timeperiod__from__month__select__option--selected, .describr__edu__highschools__show__college__timeperiod__from__day__select__option--selected, .describr__edu__highschools__show__highschool__timeperiod__from__year__select__option--selected, .describr__edu__highschools__show__highschool__timeperiod__from__month__select__option--selected, .describr__edu__highschools__show__highschool__timeperiod__from__day__select__option--selected {
+  font-weight: 600;
+}
+.describr__edu__colleges__show__college__timeperiod__to, .describr__edu__colleges__show__highschool__timeperiod__to, .describr__edu__highschools__show__college__timeperiod__to, .describr__edu__highschools__show__highschool__timeperiod__to {
+  display: inline-block;
+}
+@media screen and (max-width: 782px) {
+  .describr__edu__colleges__show__college__timeperiod__to, .describr__edu__colleges__show__highschool__timeperiod__to, .describr__edu__highschools__show__college__timeperiod__to, .describr__edu__highschools__show__highschool__timeperiod__to {
+    display: block;
+    margin-top: 10px;
+  }
+}
+.describr__edu__colleges__show__college__timeperiod__to__label, .describr__edu__colleges__show__highschool__timeperiod__to__label, .describr__edu__highschools__show__college__timeperiod__to__label, .describr__edu__highschools__show__highschool__timeperiod__to__label {
+  vertical-align: middle;
+  font-weight: 600;
+  padding: 0 8px 0 16px;
+}
+.describr__edu__colleges__show__college__timeperiod__to__label, .describr__edu__colleges__show__college__timeperiod__to__year, .describr__edu__colleges__show__college__timeperiod__to__month, .describr__edu__colleges__show__college__timeperiod__to__day, .describr__edu__colleges__show__highschool__timeperiod__to__label, .describr__edu__colleges__show__highschool__timeperiod__to__year, .describr__edu__colleges__show__highschool__timeperiod__to__month, .describr__edu__colleges__show__highschool__timeperiod__to__day, .describr__edu__highschools__show__college__timeperiod__to__label, .describr__edu__highschools__show__college__timeperiod__to__year, .describr__edu__highschools__show__college__timeperiod__to__month, .describr__edu__highschools__show__college__timeperiod__to__day, .describr__edu__highschools__show__highschool__timeperiod__to__label, .describr__edu__highschools__show__highschool__timeperiod__to__year, .describr__edu__highschools__show__highschool__timeperiod__to__month, .describr__edu__highschools__show__highschool__timeperiod__to__day {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+.describr__edu__colleges__show__college__timeperiod__to__year, .describr__edu__colleges__show__college__timeperiod__to__month, .describr__edu__colleges__show__college__timeperiod__to__day, .describr__edu__colleges__show__highschool__timeperiod__to__year, .describr__edu__colleges__show__highschool__timeperiod__to__month, .describr__edu__colleges__show__highschool__timeperiod__to__day, .describr__edu__highschools__show__college__timeperiod__to__year, .describr__edu__highschools__show__college__timeperiod__to__month, .describr__edu__highschools__show__college__timeperiod__to__day, .describr__edu__highschools__show__highschool__timeperiod__to__year, .describr__edu__highschools__show__highschool__timeperiod__to__month, .describr__edu__highschools__show__highschool__timeperiod__to__day {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__edu__colleges__show__college__timeperiod__to__year__arrow_down, .describr__edu__colleges__show__college__timeperiod__to__month__arrow_down, .describr__edu__colleges__show__college__timeperiod__to__day__arrow_down, .describr__edu__colleges__show__highschool__timeperiod__to__year__arrow_down, .describr__edu__colleges__show__highschool__timeperiod__to__month__arrow_down, .describr__edu__colleges__show__highschool__timeperiod__to__day__arrow_down, .describr__edu__highschools__show__college__timeperiod__to__year__arrow_down, .describr__edu__highschools__show__college__timeperiod__to__month__arrow_down, .describr__edu__highschools__show__college__timeperiod__to__day__arrow_down, .describr__edu__highschools__show__highschool__timeperiod__to__year__arrow_down, .describr__edu__highschools__show__highschool__timeperiod__to__month__arrow_down, .describr__edu__highschools__show__highschool__timeperiod__to__day__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__edu__colleges__show__college__timeperiod__to__year__select, .describr__edu__colleges__show__college__timeperiod__to__month__select, .describr__edu__colleges__show__college__timeperiod__to__day__select, .describr__edu__colleges__show__highschool__timeperiod__to__year__select, .describr__edu__colleges__show__highschool__timeperiod__to__month__select, .describr__edu__colleges__show__highschool__timeperiod__to__day__select, .describr__edu__highschools__show__college__timeperiod__to__year__select, .describr__edu__highschools__show__college__timeperiod__to__month__select, .describr__edu__highschools__show__college__timeperiod__to__day__select, .describr__edu__highschools__show__highschool__timeperiod__to__year__select, .describr__edu__highschools__show__highschool__timeperiod__to__month__select, .describr__edu__highschools__show__highschool__timeperiod__to__day__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: auto;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__edu__colleges__show__college__timeperiod__to__year__select__option, .describr__edu__colleges__show__college__timeperiod__to__month__select__option, .describr__edu__colleges__show__college__timeperiod__to__day__select__option, .describr__edu__colleges__show__highschool__timeperiod__to__year__select__option, .describr__edu__colleges__show__highschool__timeperiod__to__month__select__option, .describr__edu__colleges__show__highschool__timeperiod__to__day__select__option, .describr__edu__highschools__show__college__timeperiod__to__year__select__option, .describr__edu__highschools__show__college__timeperiod__to__month__select__option, .describr__edu__highschools__show__college__timeperiod__to__day__select__option, .describr__edu__highschools__show__highschool__timeperiod__to__year__select__option, .describr__edu__highschools__show__highschool__timeperiod__to__month__select__option, .describr__edu__highschools__show__highschool__timeperiod__to__day__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__edu__colleges__show__college__timeperiod__to__year__select__option--selected, .describr__edu__colleges__show__college__timeperiod__to__month__select__option--selected, .describr__edu__colleges__show__college__timeperiod__to__day__select__option--selected, .describr__edu__colleges__show__highschool__timeperiod__to__year__select__option--selected, .describr__edu__colleges__show__highschool__timeperiod__to__month__select__option--selected, .describr__edu__colleges__show__highschool__timeperiod__to__day__select__option--selected, .describr__edu__highschools__show__college__timeperiod__to__year__select__option--selected, .describr__edu__highschools__show__college__timeperiod__to__month__select__option--selected, .describr__edu__highschools__show__college__timeperiod__to__day__select__option--selected, .describr__edu__highschools__show__highschool__timeperiod__to__year__select__option--selected, .describr__edu__highschools__show__highschool__timeperiod__to__month__select__option--selected, .describr__edu__highschools__show__highschool__timeperiod__to__day__select__option--selected {
+  font-weight: 600;
+}
+.describr__edu__colleges__show__ctrls, .describr__edu__highschools__show__ctrls {
+  margin: 10px 0;
+}
+.describr__edu__colleges__show__ctrls .ui-selectmenu-button, .describr__edu__highschools__show__ctrls .ui-selectmenu-button {
+  margin-right: 0.25em;
+}
+.describr__edu__colleges__show__ctrls__privacy, .describr__edu__highschools__show__ctrls__privacy {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.describr__edu__colleges__show__ctrls__privacy__menu__item__option__icon, .describr__edu__colleges__show__ctrls__privacy__menu__item__option__text, .describr__edu__highschools__show__ctrls__privacy__menu__item__option__icon, .describr__edu__highschools__show__ctrls__privacy__menu__item__option__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.describr__edu__colleges__show__ctrls__privacy__menu__item__option__icon, .describr__edu__highschools__show__ctrls__privacy__menu__item__option__icon {
+  margin-right: 0.25em;
+}
+.describr__edu__colleges__show__ctrls__privacy__arrow_down, .describr__edu__highschools__show__ctrls__privacy__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__edu__colleges__show__ctrls__privacy__select, .describr__edu__highschools__show__ctrls__privacy__select {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  position: absolute;
+  border: 1px solid #7e8993;
+  width: 120px;
+  min-width: 100%;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 100%;
+  left: 0;
+}
+.describr__edu__colleges__show__ctrls__privacy__select__option, .describr__edu__highschools__show__ctrls__privacy__select__option {
+  padding: 0.2em 0.2em 0.5em;
+  font-size: 1.1em;
+}
+.describr__edu__colleges__show__ctrls__privacy__select__option--selected, .describr__edu__highschools__show__ctrls__privacy__select__option--selected {
+  font-weight: 600;
+}
+.describr__edu__colleges__show__ctrls__publish, .describr__edu__highschools__show__ctrls__publish {
+  display: inline-block;
+  position: relative;
+}
+.describr__edu__colleges__show__ctrls__publish__accessibility, .describr__edu__highschools__show__ctrls__publish__accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.describr__edu__colleges__show__ctrls__publish__icon, .describr__edu__highschools__show__ctrls__publish__icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+  color: #bbb;
+  margin-top: -0.24rem;
+}
+.describr__edu__colleges__show__ctrls__publish__icon:hover, .describr__edu__highschools__show__ctrls__publish__icon:hover {
+  color: #aeaeae;
+}
+.describr__edu__colleges__show__ctrls__publish__icon-state--unpublished, .describr__edu__highschools__show__ctrls__publish__icon-state--unpublished {
+  color: #dc3232;
+}
+.describr__edu__colleges__show__ctrls__publish__checkbox, .describr__edu__highschools__show__ctrls__publish__checkbox {
+  margin-right: 10px;
+}
+.describr__edu__colleges__show__ctrls__events, .describr__edu__highschools__show__ctrls__events {
+  display: inline-block;
+  color: #808080;
+}
+@media screen and (max-width: 782px) {
+  .describr__edu__colleges__show__ctrls__events, .describr__edu__highschools__show__ctrls__events {
+    display: block;
+  }
+}
+.describr__edu__colleges__show__ctrls__events__date, .describr__edu__highschools__show__ctrls__events__date {
+  color: #444;
+}
+.describr__edu__colleges__show__ctrls__events__wrapper, .describr__edu__highschools__show__ctrls__events__wrapper {
+  display: inline-block;
+  position: relative;
+}
+.describr__edu__colleges__show__ctrls__events__wrapper__button, .describr__edu__highschools__show__ctrls__events__wrapper__button {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  color: #444;
+  padding-right: 25px !important;
+  padding: 0.26em 0.8em;
+  min-height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.describr__edu__colleges__show__ctrls__events__wrapper__button__arrow_down, .describr__edu__highschools__show__ctrls__events__wrapper__button__arrow_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #808080;
+}
+.describr__edu__colleges__show__ctrls__events__wrapper__button__txt, .describr__edu__highschools__show__ctrls__events__wrapper__button__txt {
+  display: inline-block;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.describr__edu__colleges__show__ctrls__events__wrapper__menu, .describr__edu__highschools__show__ctrls__events__wrapper__menu {
+  border-radius: 3px;
+  line-height: 1.3;
+  z-index: 2;
+  word-wrap: break-word;
+  cursor: pointer;
+  background: #fff;
+  color: #515151;
+  border: 1px solid #7e8993;
+  top: 26px;
+  right: -5px;
+  position: absolute;
+}
+.describr__edu__colleges__show__ctrls__events__wrapper__menu__wrapper, .describr__edu__highschools__show__ctrls__events__wrapper__menu__wrapper {
+  max-height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.describr__edu__colleges__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__edu__highschools__show__ctrls__events__wrapper__menu__wrapper__item__link {
+  max-width: 350px;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 480px) {
+  .describr__edu__colleges__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__edu__highschools__show__ctrls__events__wrapper__menu__wrapper__item__link {
+    max-width: 250px;
+  }
+}
+.describr__edu__colleges__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__edu__highschools__show__ctrls__events__wrapper__menu__wrapper__item__link:hover {
+  background: #f8f8f8;
+}
+.describr__edu__colleges__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__edu__colleges__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__edu__colleges__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__edu__colleges__show__ctrls__events__wrapper__menu__wrapper__item__link:visited, .describr__edu__highschools__show__ctrls__events__wrapper__menu__wrapper__item__link, .describr__edu__highschools__show__ctrls__events__wrapper__menu__wrapper__item__link:hover, .describr__edu__highschools__show__ctrls__events__wrapper__menu__wrapper__item__link:active, .describr__edu__highschools__show__ctrls__events__wrapper__menu__wrapper__item__link:visited {
+  color: #515151;
+  text-decoration: none;
+}
+.describr__edu__colleges__show__ctrls__events__wrapper__menu__arrow_up, .describr__edu__highschools__show__ctrls__events__wrapper__menu__arrow_up {
+  cursor: pointer;
+  position: absolute;
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #7e8993 transparent;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+}
+.describr__edu__colleges__show__ctrls__events__wrapper__menu__arrow_up::before, .describr__edu__highschools__show__ctrls__events__wrapper__menu__arrow_up::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  display: inline-block;
+  border-width: 0 10px 10px;
+  height: 0;
+  width: 0;
+  border-color: #fff transparent;
+  left: -10px;
+  bottom: -11px;
+}
+.describr__edu__colleges__show__college__name, .describr__edu__colleges__show__highschool__name, .describr__edu__highschools__show__college__name, .describr__edu__highschools__show__highschool__name {
+  width: 25em;
+}
+@media screen and (max-width: 782px) {
+  .describr__edu__colleges__show__college__name, .describr__edu__colleges__show__highschool__name, .describr__edu__highschools__show__college__name, .describr__edu__highschools__show__highschool__name {
+    width: auto;
+  }
+}
+.describr__edu__colleges__show__college__name__input, .describr__edu__colleges__show__highschool__name__input, .describr__edu__highschools__show__college__name__input, .describr__edu__highschools__show__highschool__name__input {
+  width: 100% !important;
+}
+.describr__edu__colleges__show__college__major, .describr__edu__colleges__show__college__minor, .describr__edu__colleges__show__college__degree, .describr__edu__highschools__show__college__major, .describr__edu__highschools__show__college__minor, .describr__edu__highschools__show__college__degree {
+  width: 25em;
+}
+@media screen and (max-width: 782px) {
+  .describr__edu__colleges__show__college__major, .describr__edu__colleges__show__college__minor, .describr__edu__colleges__show__college__degree, .describr__edu__highschools__show__college__major, .describr__edu__highschools__show__college__minor, .describr__edu__highschools__show__college__degree {
+    width: auto;
+  }
+}
+.describr__edu__colleges__show__college__major__input, .describr__edu__colleges__show__college__minor__input, .describr__edu__colleges__show__college__degree__input, .describr__edu__highschools__show__college__major__input, .describr__edu__highschools__show__college__minor__input, .describr__edu__highschools__show__college__degree__input {
+  width: 100% !important;
+}
